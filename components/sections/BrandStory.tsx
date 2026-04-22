@@ -57,7 +57,7 @@ export function BrandStory() {
           <Image
             alt="Noir Elegance Heritage"
             src="/images/hero-img.png"
-            className="w-full h-full object-cover transition-all duration-[3s] group-hover:scale-110 grayscale group-hover:grayscale-0"
+            className="w-full h-full object-cover transition-all duration-[3s] group-hover:scale-110 md:grayscale group-hover:grayscale-0"
             fill
           />
           <div className="absolute inset-0 border-[32px] border-[#0e0e0e]/40 pointer-events-none"></div>

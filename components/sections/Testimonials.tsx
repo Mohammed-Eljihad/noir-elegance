@@ -41,7 +41,7 @@ export function Testimonials() {
                   alt={`Portrait of ${testimonial.name}`}
                   fill
                   sizes="80px"
-                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                  className="object-cover md:grayscale group-hover:grayscale-0 transition-all duration-700"
                   priority={testimonial.id === "testimonial-001"}
                   unoptimized
                 />

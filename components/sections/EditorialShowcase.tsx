@@ -34,7 +34,7 @@ export function EditorialShowcase() {
         <div className="md:col-span-8 rounded-xl group relative aspect-video bg-[#0a0a0a] overflow-hidden border border-white/5">
           <Image
             alt="Artistic fragrance display"
-            className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 opacity-40 group-hover:opacity-60 grayscale group-hover:grayscale-0"
+            className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 opacity-60 md:opacity-40 group-hover:opacity-60 md:grayscale group-hover:grayscale-0"
             src="/images/collection-1.png"
             fill
           />
@@ -51,7 +51,7 @@ export function EditorialShowcase() {
         <div className="md:col-span-4 group rounded-xl relative aspect-4/5 bg-[#0a0a0a] overflow-hidden border border-white/5">
           <Image
             alt="Detail of ingredients"
-            className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 opacity-30 group-hover:opacity-50 grayscale group-hover:grayscale-0"
+            className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 opacity-50 md:opacity-30 group-hover:opacity-50 md:grayscale group-hover:grayscale-0"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZ0I1KzC-RmiRuTc4JDf3rNffJCvWpW6ebkiqNDT8D_OyLlMsA3KyDLdZd5lYhsNjE-uN7y6ygbFCLpWSpVSb_rg0IJ5ZFaZdhIDWKtZV36ZmmY-F81bncFRFvVNBDvEIaHfKkWxUJAtUAWR8DLAuhLOFD6L2xvQuXq6e4QNQQA-D7ILiN2HqnWaDAn4o4gB0j8qrIAvSOq373nhgytxz3dVTta_2gNMiNfMCdKpKl8x-Jl3JXfXR7wMk-X9ApMhUmunErxMbC919P"
             fill
           />
