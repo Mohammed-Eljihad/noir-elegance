@@ -163,7 +163,7 @@ export function Hero() {
           className="flex flex-col sm:flex-row gap-8 items-start sm:items-center"
         >
           <Link
-            href="/shop"
+            href="/#collection"
             className="group relative px-12 py-5 rounded-xl bg-[#C8A96A]/80 text-black text-[11px] tracking-[0.4em] uppercase font-semibold overflow-hidden hover-effect"
           >
             <span className="relative z-10 group-hover:text-white hover-effect">

@@ -1,8 +1,8 @@
+@import "tailwindcss";
+
 html {
   scroll-behavior: smooth;
 }
-
-@import "tailwindcss";
 
 @theme {
   --color-on-primary-fixed-variant: #5a5c5c;

@@ -82,24 +82,22 @@ export function Footer() {
               Subscribe to receive exclusive access to limited drops, private
               events, and our editorial journal.
             </p>
-            <div className="flex border-b border-white/5 pb-3">
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className="flex items-center justify-between w-full"
-              >
-                <input
-                  className="bg-transparent border-none outline-none font-body text-sm text-white w-full placeholder:text-white/10"
-                  placeholder="Email Address"
-                  type="email"
-                />
-              </form>
+            <form
+              onSubmit={(e) => e.preventDefault()}
+              className="flex items-center justify-between w-full border-b border-white/5 pb-3"
+            >
+              <input
+                className="bg-transparent border-none outline-none font-body text-sm text-white w-full placeholder:text-white/10"
+                placeholder="Email Address"
+                type="email"
+              />
               <button
                 type="submit"
-                className="font-body text-[10px] uppercase tracking-[0.3em] text-[#C8A96A]/60 hover:text-white transition-all duration-500"
+                className="font-body text-[10px] uppercase tracking-[0.3em] text-[#C8A96A]/60 hover:text-white transition-all duration-500 shrink-0 ml-4"
               >
                 Submit
               </button>
-            </div>
+            </form>
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center w-full">

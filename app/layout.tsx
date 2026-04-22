@@ -25,6 +25,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://noir-elegance.vercel.app"),
   title: "Noir Élégance | The Art of Luxury Perfumery",
   description:
     "Discover Noir Élégance, a sensory couture experience. An olfactory masterpiece blending midnight jasmine with smoked oud, crafted for timeless sophistication.",
